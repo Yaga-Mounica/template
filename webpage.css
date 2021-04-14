@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 30px;
+    color: #b2b1b1;
+    cursor: pointer;
+
+}
+
+/* .logo{
+    width: 30px;
+} */
+/* .img{
+    margin-left: 30px;
+    border: 2px solid red;
+    
+} */ 
+.logo img{
+    width: 30px;
+    margin-top: -10px;
+    margin-right: 40px;
+}
+.signup-btn{
+    top: 45px;
+    right: 130px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+
+    width: 100px;
+    text-align: center;
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 8px;
+}
+
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 20%;
+    left: 140px;
+    position: absolute;
+    color: #fff;
+}
+/* .app-text h3,h1{
+    line-height: 70px;
+}  */
+.app-text h2{
+    letter-spacing: 3px;
+    font-size: 35px;
+
+}
+
+/* .app-text p{
+    position: absolute;
+    bottom:-100px;
+} */
+.app-picture{
+    right: 130px;
+    top : 10px;
+    position: absolute;
+    
+}
+
+.app-text{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+}
+.para{
+
+    position: relative;
+    bottom: -50px;
+}
+.heading1{
+    position: relative;
+    bottom: -20px;
+    letter-spacing: 15px;
+}
+/* 
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+}
+.play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+} */
+
+.play-btn{
+    margin-left: -1px;
+    display: inline-flex;
+    position:absolute;
+    bottom: -140px;
+}
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+}
+.play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* .play-btn-inner{
+    border: 2px solid blue;
+    border-radius: 80%;
+    padding: 10px;
+} */
+small{
+    margin: auto 20px;
+    color: #19dafa;
+}
+.quick-links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #db1bf6, #19d7f8);
+    width: 40%;
+    height: 15%;
+    /* font-size: 5px; */
+}
+.quick-links ul{
+    display: inline-flex;
+    margin: 15px auto;
+    text-align: center;
+}
+.quick-links ul li{
+    list-style: none;
+    margin: 0 70px;
+}
+.quick-links ul li .fa{
+    font-size: 20px;
+      color: white;
+     position: absolute;
+     bottom: 30px;
+     
+}
+.quick-links ul li p{
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: monospace;
+    color: #fff;
+}
+.social-icons{
+    right: 72px;
+    bottom: 75px;
+    position: absolute;
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-icons ul li a{
+    color: #999;
+
+    padding: 5px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    /* text-align: center; */
+    align-items: center;
+    
+    
+
+} 
+
+
+
+
+.div1{
+    border: 1px solid dimgrey;
+    height:180px;
+    width: 0;
+    right: 85px;
+    bottom: 250px;
+    position: absolute;
+}
+.div2{
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    padding: 40px;
+    margin: 0px;
+    font-size: 15px;
+} 
