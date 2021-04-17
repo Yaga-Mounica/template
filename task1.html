@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            login Form
+        </title>
+        <link rel="stylesheet" href="task1.css">
+
+    </head>
+    <body>
+      <div class="container">
+        <form class="form">
+            <h3 class="heading">Enter the system</h3>
+            <p class="content"><span>It is necessary to login in Your account in order to sign up for a course.</span></p>
+            <p class="para2"><span class="span1">ARE YOU NEW?</span><span class="span2">REGISTER</span></p>
+            <div class="register">
+                <input type="text" 
+                pattern="[a-zA-Z]"name="username" required placeholder="User name" autocompleter="off" size="30"  class="username" maxlength="15">
+                <br><br>
+                <input type="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"  name="emailid" required placeholder="Email" autocompleter="off" size="30"class="email" maxlength="15">
+                <br><br>
+                <input type="password" name="password" 
+                required placeholder="Password" autocompleter="off" size="30" class="password" maxlength="15">
+                <br><br>
+                <input type="password" name="confirmpassword" required placeholder="Confirm Password" class="confirmpassword" size="30" maxlength="15" autocompleter="off">
+                <br><br>
+                <input type="submit" name="register" value="Register" class="submitbutton">
+            </div> 
+            <div class="login-box">
+                <p class="para3"><span class="span3">ALREADY A STUDENT? LOGIN</span><span class="content2"></span></p>
+                <br><br>
+                <input type="text" name="loginname" required class="username1" placeholder="User name" autocompleter="off" size="30" maxlength="15">
+                <br><br>
+                <input type="password" name="loginpassword" required class="password1" placeholder="Password" autocompleter="off" size="30" maxlength="15">
+                <br><br>
+                <input type="checkbox"  class="box"name="remember" value="yes"><span class="checkbox">Remember me?</span>
+                <br><br>
+                <input type="submit" name="register" value="Login" class="loginbutton">
+                <span class="span4" style= "text-decoration: underline;">Forgot Password?</span>
+            </div>
+        </form>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("form");
+          if (x.className === "form") {
+            x.className += " responsive";
+          } else {
+            x.className = "form";
+          }
+        }
+        </script>
+    </body>
+</html>
